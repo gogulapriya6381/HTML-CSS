@@ -1,0 +1,29 @@
+.button{
+    width: 65px;
+    background-color: rgb(255, 255, 255);
+  border-radius: 70%;
+  height: 5vh;
+}
+
+input[type="reset"]{
+    width:170px;
+    display: flex;
+}
+
+input[type="text"]{
+    width: 270px ;
+    height: 3vh;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10%;
+}
+.container{
+    width: 25%;
+    height: 55vh;
+margin-left:40%;
+    margin-top: 10%;
+    background-color: rgb(17, 17, 14);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10%;
+}
