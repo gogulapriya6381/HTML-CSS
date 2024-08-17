@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0%;
+   
+}
+body{
+    background-color: rgb(37, 36, 36);
+}
+
+.name h3 {
+    margin-left: 10%;
+    
+ color: rgb(255, 255, 255); 
+}
+.name h1{
+    margin-left: 10%;
+    color: rgb(245, 11, 11);
+    font-style: italic;
+}
+.name h2{
+    margin-left: 10%;
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    font-size: 150%;
+}
+.name p{
+    margin-left: 10%;
+    color: rgb(255, 255, 255);
+}
+.name input[type="button"]{
+    margin-left: 10%;
+    background-color: rgb(240, 13, 81);
+    color: rgb(247, 247, 247);
+    width: 5%;
+    height: 30px;
+    border-radius: 10%;
+    
+}
+    .nav{
+   
+    color:rgb(202, 14, 14);
+    
+    
+  
+}
+ul{
+    
+    margin-top: 1%;
+    margin-left: 60%;
+}
+ul li{
+     list-style:none ;
+    display: inline-block;
+    padding: 10px 16px;
+}
+ul li a{
+    text-decoration: none;
+    font-style: italic;
+    font-size: large;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    margin-top: -3%;
+    position: relative;
+}
+
+ul li a::after{
+    content: '';
+    width: 10%;
+    height: 3px;
+    background: rgb(228, 11, 11);
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.4s;
+
+}
+ul li a:hover::after{
+    width: 100%;
+    background-color: aliceblue;
+}
+ul li a:hover{
+    color: rgb(228, 11, 11);
+}
+.main{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 5%;
+    margin-left:27%;
+    gap: 60px;
+    width: 40%;
+    height: 45%;
+
+}
+.block{
+    border-radius: 5%;
+    background-color: rgba(255, 230, 230, 0.952);
+    font-style: italic;
+    font-size: 120%;
+    padding: 5%;
+    
+    
+}
+.map{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+   
+}
+.contact{
+    padding: 5%;
+    display: grid;
+    gap: 11%;
+    grid-template-columns:repeat(2,ifr);
+   margin-left: 28%;
+    width: 50%;
+    
+   
+
+    background-color: rgba(255, 230, 230,0.952);
+}
+.contact input[type="button"]{
+ 
+    background-color: rgb(240, 13, 81);
+    color: rgb(247, 247, 247);
+    width: 23%;
+    height: 40px;
+    gap: 15%;
+    border-radius: 11%;
+    margin-left: -10%;
+}
+.ready{
+    display: grid;
+    grid-template-columns: none;
+    padding: 3%;
+    background-color: rgb(236, 63, 106);
+    width: 55%;
+    height: 25px;
+    color: aliceblue;
+   border-radius: 5%;
+    margin-left: 14%;
+    margin-right:55%;
+    margin-bottom: 10%;
+       margin-top:4%;
+    text-align: left;
+   
+
+}
+.ready input[type="button"]{
+    width: 25%;
+    align-items: center;
+    padding: 1%;
+    height: 40px;
+    color: rgb(231, 22, 22);
+    border-radius: 8%;
+    margin-left: 75%;
+  margin-top:-5%;
+
+}
+.mail{
+    display: grid;
+    grid-template-columns: none;
+    color: rgb(243, 244, 245);
+
+margin-left: 65%;
+
+}
